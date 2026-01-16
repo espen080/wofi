@@ -1,5 +1,9 @@
 /* Notes below regarding the purpose of each setting is true to the best of my knowledge. */
 
+* {
+	font-family: monospace;
+	font-size: 18px;
+ }
 :root {
 	--overlay: #26233a;
 	--text: #e0def4;
@@ -11,7 +15,7 @@
 #input {
 	margin: 10px; /* how much padding there is around the input box */
 	border: none; /* border around the input box */
-	background-color: var(--muted); /* background color of the text input box itself */
+	background-color: #1f1d2e; /* background color of the text input box itself */
         color: var(--text); /* text color as you type inside the input box */
 }
 
@@ -34,19 +38,20 @@
 	border: none; /* border around each individual item within the search results */
 	background-color: trans; /* background behind each individual item within the search results */
         color: var(--text);
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 #entry:selected {
-    background-color: #9ccfd8;
-    color: #191724;
+    background-color: #26233a;
+    color: #e0def4;
     border-radius: 0px;;
     outline: none;
+    font-style: italic;
 }
 
 #entry:selected * {
-    background-color: #9ccfd8;
-    color: #191724;
+    background-color: #26233a;
+    color: #e0def4;
     border-radius: 0px;;
     outline: none;
 }
@@ -65,5 +70,5 @@
 window {
 	margin: 15px;
 	border: 2px solid #f6c177; /* border around the entire window */
-	background-color: var(--overlay);
+	background-color: #191724;
 }
