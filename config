@@ -1,6 +1,8 @@
-allow_images=true
-image_size=64
+allow_images=false
+image_size=16
 width=600
+prompt=
+term=ghostty
 height=200
 insensitive=true
 mode=drun,run
